@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large dataset files (keep structure but exclude large files)
+urdu_20k_mixed_dataset/*.tif
+urdu_20k_mixed_dataset/*.lstmf
+urdu_20k_mixed_dataset/*.box
+urdu_test_small/*.tif
+urdu_test_small/*.lstmf
+urdu_test_small/*.box
+urdu_training_data/*.tif
+test_dataset/*.tif
+full_datasets/
+
+# Keep sample files for demonstration
+!urdu_20k_mixed_dataset/naskh_000017_blur.*
+!urdu_20k_mixed_dataset/dataset_info.md
+!urdu_test_small/naskh_000000.*
+!test_dataset/sample_001.*
+
+# Tesseract training outputs
+data/
+models/
+*.checkpoint
+*.traineddata
+
+# Logs
+*.log
+training.log
